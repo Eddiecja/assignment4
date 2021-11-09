@@ -49,6 +49,23 @@ header li {
     margin: 0 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
+.container h2 {
+    padding: 20px 0 5px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 25px;
+}
+
 /*===============================
 
 Home Page Styling
@@ -57,6 +74,10 @@ Home Page Styling
 
 .container {
     max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
     margin-top: 80px;
     position: relative;
 }
@@ -64,8 +85,47 @@ Home Page Styling
 .center-text {
     position: absolute;
     top: 50%;
-    width: 100%;
     min-width: 800px;
     text-align: center;
     font-size: 36px;
+}
+
+span {
+    color: purple;
+    font-weight: bold;
+}
+
+.creator-img {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+
+.cloud-top{
+    width: 200px;
+    top: 120px;
+    opacity: .5;
+    animation: wind 14s linear infinite reverse;
+}
+
+.cloud-mid{
+    width: 150px;
+    top: 50px;
+    animation: wind 13s linear infinite reverse;
+}
+    
+.cloud-bottom{
+        width: 300px;
+        top: 0;
+        animation: wind 12s linear infinite reverse;
+        z-index: 100;
+ }
+
+@keyframes wind {
+        from {
+            transform: translateX(100px)
+        }
+        to {
+            transform: translateX(300px);
+        }
 }
