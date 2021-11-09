@@ -48,3 +48,24 @@ header li {
     display: inline-block;
     margin: 0 10px;
 }
+
+/*===============================
+
+Home Page Styling
+
+===============================*/
+
+.container {
+    max-width: 800px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    min-width: 800px;
+    text-align: center;
+    font-size: 36px;
+}
