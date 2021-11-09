@@ -9,3 +9,42 @@ Universal Styling
     border: 0;
 }
 
+h1, 
+nav {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background:#1A1A1A;
+    padding: 10px 10px;
+    transition: .4s;
+    width: 100px;
+  }
+
+  nav a:hover {
+    background: white;
+    color: black;
+    transition: .4s;
+  }
+
+  header {
+    background: #1A1A1A;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 10px;
+}
